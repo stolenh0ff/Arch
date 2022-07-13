@@ -1,7 +1,4 @@
-xrandr --output eDP-1 --primary --mode 1280x720 --pos 640x1440 --rotate normal --output HDMI-1 --mode 2560x1440 --pos 0x0 --rotate normal --output DP-1 --off
-feh --bg-fill ~/Downloads/aras4ka.jpg
-picom --experimental-backend &
+xrandr --output eDP-1 --primary --mode 720x1280
 udiskie -t &
-blueman-applet &
 nm-applet &
 volumeicon &
