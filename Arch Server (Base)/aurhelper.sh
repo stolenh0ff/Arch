@@ -1,7 +1,8 @@
 sudo pacman -S base-devel git
-cd /opt/
+mkdir ~/Git/ArchPackages
+cd ~/Git/ArchPackages
 sudo git clone https://aur.archlinux.org/yay-git.git
-echo "Type your username"
+echo "Type your username: "
 read username
 sudo chown -R "$username":"$username" yay-git/
 cd yay-git
