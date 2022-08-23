@@ -1,4 +1,4 @@
-xrandr --output HDMI-1 --primary
+xrandr --auto
 udiskie -t &
 nm-applet &
 volumeicon &
