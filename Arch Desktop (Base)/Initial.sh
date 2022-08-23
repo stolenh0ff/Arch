@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "WARNING"
+echo "This Script will create a new User "
 
 echo "Type your new username: "
 read username
@@ -28,7 +29,7 @@ makepkg -si
 pacman -S xorg-xinit xorg-xrandr sudo xorg lightdm lightdm-gtk-greeter qtile alacritty firefox pulseaudio pavucontrol pamixer neofetch neovim ranger zsh wget feh libmtp glib2 gvfs picom geeqie vlc 
 systemctl enable lightdm
 
-yay -S simple-mtpfs
+yay -S simple-mtpfs brave-bin
 
 sudo pacman -S wget zsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
