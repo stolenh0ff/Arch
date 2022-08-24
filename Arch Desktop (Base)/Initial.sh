@@ -15,7 +15,7 @@ usermod -aG wheel,video,audio,storage "$username"
 
 cd /home/"$username"
 
-sudo pacman -S base-devel git
+pacman -S base-devel git
 mkdir /home/"$username"/Git/ArchPackages
 cd /home/"$username"/Git/ArchPackages
 sudo git clone https://aur.archlinux.org/yay-git.git
@@ -27,7 +27,7 @@ makepkg -si
 
 #Base Packages
 
-pacman -S xorg-xinit xorg-xrandr sudo xorg lightdm lightdm-gtk-greeter qtile alacritty firefox pulseaudio pavucontrol pamixer neofetch neovim ranger zsh wget feh libmtp glib2 gvfs picom geeqie vlc 
+pacman -S xorg-xinit xorg-xrandr sudo xorg lightdm lightdm-gtk-greeter openbox polybar alacritty firefox pulseaudio pavucontrol pamixer neofetch neovim ranger zsh wget feh libmtp glib2 gvfs picom geeqie vlc 
 systemctl enable lightdm
 
 yay -S simple-mtpfs brave-bin
