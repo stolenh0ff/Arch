@@ -1,4 +1,4 @@
-System
+-System-
 sudo 
 alacritty 
 firefox 
@@ -8,15 +8,15 @@ ranger
 thunar
 wget
 
-UI 
+-UI-
 qtile 
 
-Audio
+-Audio-
 pulseaudio 
 pavucontrol 
 pamixer 
 
-Video
+-Video-
 xorg
 xorg-xinit 
 xorg-xrandr  
