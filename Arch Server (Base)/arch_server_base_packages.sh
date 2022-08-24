@@ -7,8 +7,4 @@ pacman -S jre-openjdk xorg-xinit xorg-xrandr sudo xorg lightdm lightdm-gtk-greet
 sudo systemctl enable lightdm
 
 cp /opt/ARCH/sudoers /etc/sudoers
-
-sudo pacman -S wget zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-
 reboot
