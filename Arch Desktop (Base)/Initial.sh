@@ -11,14 +11,6 @@ passwd "$username"
 
 usermod -aG wheel,video,audio,storage "$username"
 
-echo "WLAN Address: "
-read ssid
-
-echo "Password: "
-read password
-
-nmcli device wifi connect "$ssid" password "$password"
-
 pacman -S xorg-xinit xorg-xrandr sudo xorg lightdm lightdm-gtk-greeter alacritty firefox pulseaudio pavucontrol pamixer neofetch neovim ranger zsh wget feh libmtp glib2 gvfs picom geeqie vlc wget zsh
 
 echo "edit /etc/sudoers, delete # from '# %wheel ALL=(ALL) ALL' "
