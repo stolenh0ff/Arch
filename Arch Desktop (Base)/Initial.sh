@@ -2,7 +2,6 @@
 
 echo "WARNING"
 echo "This Script will create a new User "
-
 echo "Type your new username: "
 read username
 useradd -m "$username"
@@ -14,9 +13,11 @@ usermod -aG wheel,video,audio,storage "$username"
 
 #AUR Helper Install
 
+cd /home/"$username"
+
 sudo pacman -S base-devel git
-mkdir ~/Git/ArchPackages
-cd ~/Git/ArchPackages
+mkdir /home/"$username"/Git/ArchPackages
+cd /home/"$username"/Git/ArchPackages
 sudo git clone https://aur.archlinux.org/yay-git.git
 echo "Type your username: "
 read username
