@@ -1,3 +1,3 @@
 #WIP
-sudo pacman -S qtile 
-systemctl enable lightdm
+sudo pacman -S qtile polybar
+systemctl enable lightdm     

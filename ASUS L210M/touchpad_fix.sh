@@ -7,10 +7,10 @@ sudo modprobe i2c-dev
 sudo i2cdetect -l
 
 mkdir ~/Git
-cd Git
+cd ~/Git
 
 git clone https://github.com/mohamed-badaoui/asus-touchpad-numpad-driver
 cd asus-touchpad-numpad-driver
-sudo ./install.sh
+sudo bash install.sh
 
 #m433ia
