@@ -1,14 +1,14 @@
 #WIP
 
-pacman -Syu
+sudo pacman -Syyu
 
 #AUR
 
-pacman -S --needed pantheon lightdm-pantheon-greeter sound-theme-elementary switchboard lightdm-gtk-greeter elementary-icon-theme elementary-wallpapers pantheon-applications-menu wingpanel-indicator-session wingpanel-indicator-datetime
+sudo pacman -S --needed pantheon lightdm-pantheon-greeter sound-theme-elementary switchboard lightdm-gtk-greeter elementary-icon-theme elementary-wallpapers pantheon-applications-menu wingpanel-indicator-session wingpanel-indicator-datetime
 
 yay -S pantheon-session-git gnome-settings-daemon-elementary pantheon-default-settings switchboard-plug-pantheon-tweaks-git urutau-icons-git pantheon-dock-git
 
-pacman -S --needed xorg lightdm
+sudo pacman -S --needed xorg lightdm
 
 ls -1 /usr/share/xgreeters
 
