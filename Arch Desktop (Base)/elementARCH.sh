@@ -1,7 +1,10 @@
 #PACMAN
+
+#Create a user first
+
 sudo pacman -Syyu
 
-sudo pacman -S ntfs-3g
+sudo pacman -S ntfs-3g gvfs-mtp
 
 sudo pacman -S --needed pantheon lightdm-pantheon-greeter sound-theme-elementary switchboard lightdm-gtk-greeter elementary-icon-theme elementary-wallpapers pantheon-applications-menu wingpanel-indicator-session wingpanel-indicator-datetime
 
