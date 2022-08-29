@@ -13,4 +13,4 @@ git clone https://github.com/mohamed-badaoui/asus-touchpad-numpad-driver
 cd asus-touchpad-numpad-driver
 sudo bash install.sh
 
-#m433ia
+#m433ias
