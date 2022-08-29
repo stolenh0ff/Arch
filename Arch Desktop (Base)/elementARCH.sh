@@ -4,9 +4,9 @@
 
 sudo pacman -Syyu
 
-sudo pacman -S ntfs-3g gvfs-mtp
+sudo pacman -S ntfs-3g gvfs-mtp mtpfs
 
-sudo pacman -S --needed pantheon lightdm-pantheon-greeter sound-theme-elementary switchboard lightdm-gtk-greeter elementary-icon-theme elementary-wallpapers pantheon-applications-menu wingpanel-indicator-session wingpanel-indicator-datetime
+sudo pacman -S --needed pantheon lightdm-pantheon-greeter sound-theme-elementary switchboard switchboard-plug-desktop lightdm-gtk-greeter elementary-icon-theme elementary-wallpapers pantheon-applications-menu wingpanel-indicator-session wingpanel-indicator-datetime
 
 #AUR
 yay -S pantheon-session-git gnome-settings-daemon-elementary pantheon-default-settings switchboard-plug-pantheon-tweaks-git urutau-icons-git pantheon-dock-git
