@@ -8,4 +8,4 @@ echo "Downloading strap.sh"
 chmod +x strap.sh
 sudo ./strap.sh
 echo "Executing strap.sh"
-echo "haaaaaaaaaaaaaaaaaaaaaaaaaaaack!!!"
+echo "haaaaaaaaaaaaaaaaaaaaaaaaack!!!"
